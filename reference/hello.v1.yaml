@@ -19,5 +19,15 @@ paths:
       tags: []
       responses: {}
       operationId: ''
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: ''
+              type: object
+              properties:
+                hello:
+                  type: string
+                  description: hello
 components:
   schemas: {}
